@@ -1,0 +1,24 @@
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2021 15:23:48] "[35m[1mGET /products/1 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\werkzeug\serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\werkzeug\serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\flask\app.py", line 2080, in wsgi_app
+    return response(environ, start_response)
+TypeError: 'NoneType' object is not callable
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2021 15:23:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\werkzeug\serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\werkzeug\serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "E:\uni-stuff\COMPS362F\362f-project\env\Lib\site-packages\flask\app.py", line 2080, in wsgi_app
+    return response(environ, start_response)
+TypeError: 'NoneType' object is not callable
