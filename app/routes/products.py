@@ -96,7 +96,7 @@ def buy_product(product_id):
                     'message': 'product_id not found in system'
                 }), 404
         else:
-            # product not in system
+            # invalid credit card number
             return jsonify({
                 'success': False,
                 'exe_id': execution_id,

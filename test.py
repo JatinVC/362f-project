@@ -3,7 +3,7 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 import threading
 
-SERVER = 'localhost:5000'
+SERVER = 'localhost:3000'
 
 def ws_client(url, method, data=None):
     if data:
